@@ -1,0 +1,72 @@
+p{
+  color:black;
+}
+
+input:required{
+  border:1px solid green;
+}
+
+body{
+  background: -webkit-linear-gradient(left, red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left,#BE2625 10%, #BC8F8F, #FF6666);
+
+}
+
+#login{
+  width: 300px;
+  height: 300px;
+  background-color: whitesmoke;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: scroll;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+
+
+
+#header{
+
+  height:68px;
+  width:400px;
+  position:fixed;
+  top:12px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+  font-size: 50px;
+  text-align: center;
+  color:#9F5F9F;
+}
+
+
+
+input[type="email"] {
+  width: 250px !important;
+  height: 25px !important;
+}
+
+input[type="password"] {
+  width: 250px !important;
+  height: 25px !important;
+}
+
+.login_btn{
+  width:100px;
+  height:500px;
+  font-size: 14px;
+  letter-spacing: 1.9px;
+
+}
+
+
